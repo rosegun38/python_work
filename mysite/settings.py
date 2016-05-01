@@ -116,9 +116,8 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 # Email related configuration.
-EMAIL_HOST = 'smtp.163.com'
-EMAIL_HOST_USER = 'rosegun38@163.com'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'rosegun38@gmail.com'
 EMAIL_HOST_PASSWORD = 'Rosegun38s3i6n5'
-EMAIL_PORT = 25
+EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
